@@ -78,10 +78,10 @@
 		},
 		{
 			"matchPackageNames": ["pandas-stubs", "pandas"],
-			"groupName": "pandas"
+			"groupName": "pandas packages"
 		},
 		{
-			"matchPackageNames": ["socket.io**"],
+			"matchDepNames": ["socket.io**"],
 			"groupName": "socket.io packages"
 		},
 		{
