@@ -1,7 +1,4 @@
 {
-	"extends": [
-		"github>cobaltt7/renovate"
-	],
 	"packageRules": [
 		{
 			"matchFileNames": [
