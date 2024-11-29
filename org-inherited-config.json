@@ -94,14 +94,8 @@
 
 		{
 			"matchDatasources": ["npm"],
-			"matchDepNames": ["@types/**"],
-			"overrideDatasource": "npm",
-			"overrideDepName": "{{ lookup (split packageName '/') 1 }}",
-			"extractVersion": "^(?<version>v\\d+\\.\\d+)"
-		},
-		{
-			"matchDepNames": ["/^@types/.+__.+$/i"],
-			"overrideDepName": "@{{ replace '__' '/' (lookup (split packageName '/') 1) }}"
+			"matchPackageNames": ["@types/**"],
+			"separatePatchReleases": true
 		},
 		{
 			"matchPackageNames": ["@types/node"],
