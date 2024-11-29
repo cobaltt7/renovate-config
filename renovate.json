@@ -1,0 +1,10 @@
+{
+	"extends": ["github>cobaltt7/renovate"],
+	"packageRules": [
+		{
+			"matchPaths": ["Dockerfile"],
+			"automerge": true,
+            "prCreation": "immediate"
+		}
+	]
+}
