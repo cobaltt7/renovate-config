@@ -95,7 +95,7 @@
 		{
 			"matchDatasources": ["npm"],
 			"matchPackageNames": ["@types/**"],
-			"separatePatchReleases": true
+			"separateMinorPatch": true
 		},
 		{
 			"matchPackageNames": ["@types/node"],
