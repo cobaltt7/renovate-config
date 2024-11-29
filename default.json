@@ -93,12 +93,12 @@
 
 		{
 			"matchPackageNames": ["@types/**"],
-			"overridePackageName": "{{{ lookup (split packageName '/') 1 }}}",
+			"overridePackageName": "{{ lookup (split packageName '/') 1 }}",
 			"extractVersion": "^(?<version>v\\d+\\.\\d+)"
 		},
 		{
 			"matchPackageNames": ["/^@types/.+__.+$/i"],
-			"overridePackageName": "@{{{ replace '__' '/' (lookup (split packageName '/') 1) }}}"
+			"overridePackageName": "@{{ replace '__' '/' (lookup (split packageName '/') 1) }}"
 		},
 		{
 			"matchPackageNames": ["@types/node"],
