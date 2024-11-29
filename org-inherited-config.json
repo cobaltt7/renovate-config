@@ -94,14 +94,14 @@
 
 		{
 			"matchDatasources": ["npm"],
-			"matchPackageNames": ["@types/**"],
+			"matchDepNames": ["@types/**"],
 			"overrideDatasource": "npm",
-			"overridePackageName": "{{ lookup (split packageName '/') 1 }}",
+			"overrideDepName": "{{ lookup (split packageName '/') 1 }}",
 			"extractVersion": "^(?<version>v\\d+\\.\\d+)"
 		},
 		{
-			"matchPackageNames": ["/^@types/.+__.+$/i"],
-			"overridePackageName": "@{{ replace '__' '/' (lookup (split packageName '/') 1) }}"
+			"matchDepNames": ["/^@types/.+__.+$/i"],
+			"overrideDepName": "@{{ replace '__' '/' (lookup (split packageName '/') 1) }}"
 		},
 		{
 			"matchPackageNames": ["@types/node"],
