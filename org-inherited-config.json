@@ -77,6 +77,10 @@
 			"groupName": "prettier config packages"
 		},
 		{
+			"matchPackageNames": ["pandas-stubs", "pandas"],
+			"groupName": "pandas"
+		},
+		{
 			"matchPackageNames": ["@discordjs/**", "discord-api-types", "discord.js"],
 			"groupName": "discord.js monorepo",
 			"ignoreUnstable": true
