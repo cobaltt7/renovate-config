@@ -73,7 +73,7 @@
 		},
 
 		{
-			"matchPackageNames": ["@redguy12/pretier-config", "prettier"],
+			"matchPackageNames": ["@redguy12/prettier*", "prettier"],
 			"groupName": "prettier config packages"
 		},
 		{
