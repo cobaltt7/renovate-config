@@ -1,11 +1,17 @@
 {
+	"enabled": "false",
 	"packageRules": [
 		{
 			"matchFileNames": [
 				"Dockerfile"
 			],
+			"matchUpdateTypes": [
+				"major"
+			],
 			"automerge": true,
-			"prCreation": "immediate"
+			"enabled": true,
+			"prCreation": "immediate",
+			"pinDigests": false
 		}
 	]
 }
