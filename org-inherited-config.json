@@ -93,7 +93,9 @@
 		},
 
 		{
+			"matchDatasources": ["npm"],
 			"matchPackageNames": ["@types/**"],
+			"overrideDatasource": "npm",
 			"overridePackageName": "{{ lookup (split packageName '/') 1 }}",
 			"extractVersion": "^(?<version>v\\d+\\.\\d+)"
 		},
