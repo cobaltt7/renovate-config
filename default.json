@@ -18,7 +18,6 @@
 	"git-submodules": { "enabled": true },
 	"lockFileMaintenance": { "enabled": true },
 	"prConcurrentLimit": 0,
-	"prCreation": "not-pending",
 	"pre-commit": { "enabled": true },
 	"prHourlyLimit": 0,
 	"semanticCommits": "enabled",
