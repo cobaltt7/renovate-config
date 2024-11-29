@@ -21,7 +21,6 @@
 	"pre-commit": { "enabled": true },
 	"prHourlyLimit": 0,
 	"semanticCommits": "enabled",
-	"separateMultipleMajor": true,
 	"updateInternalDeps": true,
 
 	"packageRules": [
