@@ -101,6 +101,24 @@
 			],
 			"groupName": "eslint monorepo"
 		},
+		{
+			"matchDatasources": [
+				"docker",
+				"node-version"
+			],
+			"matchPackageNames": [
+				"/(?:^|/)node$/",
+				"!calico/node",
+				"!docker.io/calico/node",
+				"!kindest/node"
+			],
+			"commitMessageTopic": "Node.js",
+			"groupName": "Node.js",
+			"major": { "enabled": true },
+			"minor": { "enabled": false },
+			"patch": { "enabled": false },
+			"versioning": "node"
+		},
 
 		{
 			"matchDatasources": ["npm"],
@@ -110,8 +128,18 @@
 		{
 			"matchPackageNames": ["@types/node"],
 			"commitMessageTopic": "Node.js",
+			"groupName": "Node.js"
 			"overrideDatasource": "node-version",
-			"overridePackageName": "node"
+			"overridePackageName": "node",
+			"patch": { "enabled": false },
+			"versioning": "node"
+		},
+		
+		{
+			"matchDepNames": ["@types/node", "python"],
+			"major": { "enabled": true },
+			"minor": { "enabled": false },
+			"patch": { "enabled": false }
 		}
 	]
 }
