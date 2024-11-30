@@ -128,7 +128,7 @@
 		{
 			"matchPackageNames": ["@types/node"],
 			"commitMessageTopic": "Node.js",
-			"groupName": "Node.js"
+			"groupName": "Node.js",
 			"overrideDatasource": "node-version",
 			"overridePackageName": "node",
 			"patch": { "enabled": false },
