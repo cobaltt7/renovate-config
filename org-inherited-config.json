@@ -136,7 +136,7 @@
 		},
 		
 		{
-			"matchDepNames": ["@types/node", "python"],
+			"matchDepNames": ["@types/node", "python", "npm", "poetry"],
 			"major": { "enabled": true },
 			"minor": { "enabled": false },
 			"patch": { "enabled": false }
