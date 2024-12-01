@@ -144,12 +144,6 @@
 			"major": { "enabled": true },
 			"minor": { "enabled": false },
 			"patch": { "enabled": false }
-		},
-
-		{
-            "matchPackageNames": ["psf/black"],
-            "overrideDatasource": "pypi",
-            "overridePackageName": "black"
 		}
 	]
 }
