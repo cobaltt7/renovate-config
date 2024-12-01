@@ -85,6 +85,7 @@
 		{
 			"matchPackageNames": ["psf/black", "black"],
 			"groupName": "black packages",
+			"versioning": "pep440",
 			"ignoreUnstable": true
 		},
 		{
