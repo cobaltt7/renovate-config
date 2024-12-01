@@ -83,6 +83,10 @@
 			"groupName": "pandas packages"
 		},
 		{
+			"matchPackageNames": ["psf/black", "black"],
+			"groupName": "black packages"
+		},
+		{
 			"matchDepNames": ["socket.io**"],
 			"groupName": "socket.io packages"
 		},
@@ -140,6 +144,12 @@
 			"major": { "enabled": true },
 			"minor": { "enabled": false },
 			"patch": { "enabled": false }
+		},
+
+		{
+            "matchPackageNames": ["psf/black"],
+            "overrideDatasource": "pypi",
+            "overridePackageName": "black"
 		}
 	]
 }
