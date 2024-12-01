@@ -85,7 +85,9 @@
 		{
 			"matchPackageNames": ["psf/black", "black"],
 			"groupName": "black packages",
-			"versioning": "pep440",
+			"overrideDatasource": "pypi",
+			"overrideDepName": "black",
+            "overridePackageName": "black",
 			"ignoreUnstable": true
 		},
 		{
