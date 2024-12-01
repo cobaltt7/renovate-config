@@ -92,6 +92,10 @@
 			"groupName": "socket.io packages"
 		},
 		{
+			"matchDatasources": ["npm"],
+			"matchPackageNames": ["vite", "@vitejs/**"]
+		},
+		{
 			"matchPackageNames": ["@discordjs/**", "discord-api-types", "discord.js"],
 			"groupName": "discord.js monorepo",
 			"ignoreUnstable": true
