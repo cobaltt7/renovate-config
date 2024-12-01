@@ -85,9 +85,6 @@
 		{
 			"matchPackageNames": ["psf/black", "black"],
 			"groupName": "black packages",
-			"overrideDatasource": "pypi",
-			"overrideDepName": "black",
-            "overridePackageName": "black",
 			"ignoreUnstable": true
 		},
 		{
