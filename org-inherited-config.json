@@ -84,7 +84,8 @@
 		},
 		{
 			"matchPackageNames": ["psf/black", "black"],
-			"groupName": "black packages"
+			"groupName": "black packages",
+			"ignoreUnstable": true
 		},
 		{
 			"matchDepNames": ["socket.io**"],
