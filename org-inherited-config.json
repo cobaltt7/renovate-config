@@ -83,7 +83,7 @@
 			"groupName": "pandas packages"
 		},
 		{
-			"matchPackageNames": ["psf/black", "black"],
+			"matchDepNames": ["psf/black", "black"],
 			"groupName": "black packages",
 			"ignoreUnstable": true
 		},
