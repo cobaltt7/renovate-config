@@ -4,9 +4,8 @@
 		":ignoreModulesAndTests",
 		":semanticPrefixFixDepsChoreOthers",
 		"docker:enableMajor",
-		"docker:pinDigests",
+		"group:best-practices",
 		"group:monorepos",
-		"group:recommended",
 		"helpers:pinGitHubActionDigestsToSemver",
 		"preview:dockerVersions",
 		"replacements:all",
@@ -14,7 +13,6 @@
 		"workarounds:all"
 	],
 
-	"configMigration": true,
 	"git-submodules": { "enabled": true },
 	"gitIgnoredAuthors": ["github-actions[bot]@users.noreply.github.com"],
 	"lockFileMaintenance": { "enabled": true, "schedule": ["* 18-21 */2 * *"] },
