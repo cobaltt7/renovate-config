@@ -79,6 +79,10 @@
 			"groupName": "prettier config packages"
 		},
 		{
+			"matchPackageNames": ["@sveltejs/*", "svelte"],
+			"groupName": "svelte packages"
+		},
+		{
 			"matchPackageNames": ["pandas-stubs", "pandas"],
 			"groupName": "pandas packages"
 		},
