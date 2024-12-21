@@ -115,10 +115,7 @@
 			"groupName": "eslint monorepo"
 		},
 		{
-			"matchDatasources": [
-				"docker",
-				"node-version"
-			],
+			"matchDatasources": ["docker", "node-version"],
 			"matchPackageNames": [
 				"/(?:^|/)node$/",
 				"!calico/node",
@@ -153,6 +150,13 @@
 			"major": { "enabled": true },
 			"minor": { "enabled": false },
 			"patch": { "enabled": false }
+		},
+		
+		{
+			"matchDepTypes": ["action"],
+			"pinDigests": true,
+			"extractVersion": "^(?<version>v\\d+\\.\\d+\\.\\d+)$",
+			"versioning": "regex:^v?(?<major>\\d+)(\\.(?<minor>\\d+)\\.(?<patch>\\d+))?$"
 		}
 	]
 }
