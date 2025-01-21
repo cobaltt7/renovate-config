@@ -8,7 +8,6 @@
 			"matchUpdateTypes": [
 				"major"
 			],
-			"automerge": true,
 			"enabled": true,
 			"prCreation": "immediate",
 			"pinDigests": false
