@@ -74,11 +74,11 @@
 		},
 
 		{
-			"matchPackageNames": ["@redguy12/prettier*", "prettier"],
+			"matchPackageNames": ["@redguy12/prettier**", "prettier"],
 			"groupName": "prettier config packages"
 		},
 		{
-			"matchPackageNames": ["@sveltejs/*", "svelte"],
+			"matchPackageNames": ["@sveltejs/**", "svelte"],
 			"groupName": "svelte packages"
 		},
 		{
@@ -110,7 +110,9 @@
 				"@redguy12/eslint**",
 				"@types/eslint__**",
 				"@types/eslint",
-				"eslint"
+				"eslint",
+				"eslint-config-cobaltt7",
+				"eslint-plugin-cobaltt7"
 			],
 			"groupName": "eslint monorepo"
 		},
