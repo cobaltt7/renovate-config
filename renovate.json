@@ -4,11 +4,16 @@
 			"matchFileNames": [
 				"Dockerfile"
 			],
+			"enabled": false
+		},
+		{
+			"matchFileNames": [
+				"Dockerfile"
+			],
 			"matchUpdateTypes": [
 				"major"
 			],
 			"enabled": true,
-			"prCreation": "immediate",
 			"pinDigests": false
 		}
 	]
