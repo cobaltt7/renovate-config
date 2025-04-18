@@ -132,10 +132,7 @@
 			"versioning": "node"
 		},
 		{
-			"matchPackageNames": [
-				"ruby",
-				"ruby/setup-ruby"
-			],
+			"matchPackageNames": ["ruby", "ruby/setup-ruby", "bundler"],
 			"groupName": "ruby"
 		},
 
@@ -155,7 +152,7 @@
 		},
 		
 		{
-			"matchDepNames": ["@types/node", "python", "npm", "poetry", "ruby"],
+			"matchDepNames": ["@types/node", "python", "npm", "poetry", "ruby", "bundler"],
 			"major": { "enabled": true },
 			"minor": { "enabled": false },
 			"patch": { "enabled": false }
