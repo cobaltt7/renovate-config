@@ -6,8 +6,8 @@
 "https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js",
 "https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js",
 "https://cdn.jsdelivr.net/npm/@twemoji/parser/dist/jquery.min.js",
-"https://cdn.jsdelivr.net/npm/@twemoji/parser@15.0.0/dist/jquery.min.js",
-"https://cdn.jsdelivr.net/npm/@twemoji/parser@15/dist/jquery.min.js",
-"https://cdn.jsdelivr.net/npm/@twemoji/parser@~15.1/dist/jquery.min.js",
+"https://cdn.jsdelivr.net/npm/@twemoji/parser@16.0.0/dist/jquery.min.js",
+"https://cdn.jsdelivr.net/npm/@twemoji/parser@16/dist/jquery.min.js",
+"https://cdn.jsdelivr.net/npm/@twemoji/parser@~16.0.0/dist/jquery.min.js",
 "https://cdn.jsdelivr.net/npm/@twemoji/parser@latest/dist/jquery.min.js"
 ]
