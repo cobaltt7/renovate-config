@@ -187,6 +187,6 @@
 "https://cdn.jsdelivr.net/npm/@types/node@22.0.0/dist/jquery.min.js",
 "https://cdn.jsdelivr.net/npm/@types/node@22/dist/jquery.min.js",
 "https://cdn.jsdelivr.net/npm/@types/node@~22.1/dist/jquery.min.js",
-"https://cdn.jsdelivr.net/npm/@types/node@latest/dist/jquery.min.js",
+"https://cdn.jsdelivr.net/npm/@types/node@latest/dist/jquery.min.js"
 ]
 }
