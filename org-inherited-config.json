@@ -131,6 +131,13 @@
 			"patch": { "enabled": false },
 			"versioning": "node"
 		},
+		{
+			"matchPackageNames": [
+				"ruby",
+				"ruby/setup-ruby"
+			],
+			"groupName": "ruby"
+		},
 
 		{
 			"matchDatasources": ["npm"],
@@ -148,7 +155,7 @@
 		},
 		
 		{
-			"matchDepNames": ["@types/node", "python", "npm", "poetry"],
+			"matchDepNames": ["@types/node", "python", "npm", "poetry", "ruby"],
 			"major": { "enabled": true },
 			"minor": { "enabled": false },
 			"patch": { "enabled": false }
