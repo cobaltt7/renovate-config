@@ -132,7 +132,7 @@
 			"versioning": "node"
 		},
 		{
-			"matchPackageNames": ["node"],
+			"matchPackageNames": ["node", "actions/node-versions"],
 			"commitMessageTopic": "Node.js",
 			"groupName": "Node.js",
 			"major": { "enabled": true },
