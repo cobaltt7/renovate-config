@@ -117,12 +117,22 @@
 			"groupName": "eslint monorepo"
 		},
 		{
+			"matchDatasources": ["docker", "node-version"],
 			"matchPackageNames": [
-				"/(?:^|/)node$/",
+				"//node$/",
 				"!calico/node",
 				"!docker.io/calico/node",
 				"!kindest/node"
 			],
+			"commitMessageTopic": "Node.js",
+			"groupName": "Node.js",
+			"major": { "enabled": true },
+			"minor": { "enabled": false },
+			"patch": { "enabled": false },
+			"versioning": "node"
+		},
+		{
+			"matchPackageNames": ["node"],
 			"commitMessageTopic": "Node.js",
 			"groupName": "Node.js",
 			"major": { "enabled": true },
