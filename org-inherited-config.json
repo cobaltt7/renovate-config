@@ -24,23 +24,14 @@
 	"rebaseWhen": "behind-base-branch",
 	"recreateWhen": "always",
 	"semanticCommits": "enabled",
-	"separateMajorMinor": false,
+	"separateMultipleMajor": true,
 	"updateInternalDeps": true,
 
-	"packageRules": [
-		{
-			"matchUpdateTypes": ["major", "replacement"],
-			"labels": ["version-update:semver-major"]
-		},
-		{
-			"matchUpdateTypes": ["bump", "digest", "minor", "rollback"],
-			"labels": ["version-update:semver-minor"]
-		},
-		{
-			"matchUpdateTypes": ["lockFileMaintenance", "patch", "pin", "pinDigest"],
-			"labels": ["version-update:semver-patch"]
-		},
+	"major": { "labels": ["version-update:semver-major"] },
+	"minor": { "labels": ["version-update:semver-minor"] },
+	"patch": { "labels": ["version-update:semver-patch"] },
 
+	"packageRules": [
 		{
 			"matchDepTypes": [
 				"dependencies",
