@@ -27,11 +27,28 @@
 	"separateMultipleMajor": true,
 	"updateInternalDeps": true,
 
-	"major": { "labels": ["version-update:semver-major"] },
-	"minor": { "labels": ["version-update:semver-minor"] },
+	"major": {
+		"labels": ["version-update:semver-major"],
+		"minimumReleaseAge": "7 days"
+	},
+	"minor": {
+		"labels": ["version-update:semver-minor"],
+		"minimumReleaseAge": "3 days"
+	},
 	"patch": { "labels": ["version-update:semver-patch"] },
 
 	"packageRules": [
+		{
+			"matchPackageNames": [
+				"**redguy12**",
+				"**cobaltt7**",
+				"**strife.js**",
+				"**sa-community**",
+				"**scratchaddons**"
+			],
+			"minimumReleaseAge": "0 days"
+		},
+		
 		{
 			"matchDepTypes": [
 				"dependencies",
