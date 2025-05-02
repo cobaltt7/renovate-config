@@ -1,5 +1,1 @@
-{
-	"minor": { "enabled": false },
-	"patch": { "enabled": false },
-	"packageRules": [{ "matchUpdateTypes": ["pinDigest"], "enabled": false }]
-}
+{ "minimumReleaseAge": "0 days" }
