@@ -20,6 +20,7 @@
 	"postUpdateOptions": ["npmDedupe", "pnpmDedupe", "yarnDedupeHighest"],
 	"prConcurrentLimit": 0,
 	"pre-commit": { "enabled": true },
+	"prCreation": "not-pending"
 	"prHourlyLimit": 0,
 	"rebaseWhen": "behind-base-branch",
 	"recreateWhen": "always",
