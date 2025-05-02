@@ -1,20 +1,5 @@
 {
-	"packageRules": [
-		{
-			"matchFileNames": [
-				"Dockerfile"
-			],
-			"enabled": false
-		},
-		{
-			"matchFileNames": [
-				"Dockerfile"
-			],
-			"matchUpdateTypes": [
-				"major"
-			],
-			"enabled": true,
-			"pinDigests": false
-		}
-	]
+	"minor": { "enabled": false },
+	"patch": { "enabled": false },
+	"pinDigests": false
 }
