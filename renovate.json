@@ -1,5 +1,10 @@
 {
 	"minor": { "enabled": false },
 	"patch": { "enabled": false },
-	"pinDigests": false
+	"packageRules": [
+		{
+			"updateTypes": ["pin", "digest"],
+			"enabled": false
+		}
+	]
 }
