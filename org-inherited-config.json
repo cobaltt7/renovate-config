@@ -47,7 +47,9 @@
 				"**sa-community**",
 				"**scratchaddons**"
 			],
-			"minimumReleaseAge": "0 days"
+			"minimumReleaseAge": "0 days",
+			"major": { "minimumReleaseAge": "0 days" },
+			"minor": { "minimumReleaseAge": "0 days" }
 		},
 		
 		{
