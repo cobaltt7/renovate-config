@@ -34,18 +34,26 @@
 	"patch": { "labels": ["version-update:semver-patch"] },
 
 	"packageRules": [
-		{
+		{ 
 			"matchPackageNames": [
-				"**redguy12**",
-				"**cobaltt7**",
-				"**strife.js**",
-				"**sa-community**",
-				"**scratchaddons**"
+				"!**redguy12**",
+				"!**cobaltt7**",
+				"!**strife.js**",
+				"!**sa-community**",
+				"!**scratchaddons**"
 			],
-			"minimumReleaseAge": "0 days"
-		},
-		{ "matchUpdateTypes": ["major"], "minimumReleaseAge": "7 days" },
-		{ "matchUpdateTypes": ["minor"], "minimumReleaseAge": "3 days" },
+			"matchUpdateTypes": ["major"],
+			"minimumReleaseAge": "7 days" },
+		{ 
+			"matchPackageNames": [
+				"!**redguy12**",
+				"!**cobaltt7**",
+				"!**strife.js**",
+				"!**sa-community**",
+				"!**scratchaddons**"
+			],
+			"matchUpdateTypes": ["minor"],
+			"minimumReleaseAge": "3 days" },
 
 		{
 			"matchDepTypes": [
