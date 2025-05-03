@@ -34,8 +34,6 @@
 	"patch": { "labels": ["version-update:semver-patch"] },
 
 	"packageRules": [
-		{ "matchUpdateTypes": ["major"], "minimumReleaseAge": "7 days" },
-		{ "matchUpdateTypes": ["minor"], "minimumReleaseAge": "3 days" },
 		{
 			"matchPackageNames": [
 				"**redguy12**",
@@ -46,6 +44,8 @@
 			],
 			"minimumReleaseAge": "0 days"
 		},
+		{ "matchUpdateTypes": ["major"], "minimumReleaseAge": "7 days" },
+		{ "matchUpdateTypes": ["minor"], "minimumReleaseAge": "3 days" },
 
 		{
 			"matchDepTypes": [
