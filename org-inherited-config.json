@@ -16,6 +16,7 @@
 	"configMigration": true,
 	"git-submodules": { "enabled": true },
 	"gitIgnoredAuthors": ["github-actions[bot]@users.noreply.github.com"],
+	"internalChecksFilter": "none",
 	"lockFileMaintenance": { "enabled": true, "schedule": ["* 18-21 */2 * *"] },
 	"postUpdateOptions": ["npmDedupe", "pnpmDedupe", "yarnDedupeHighest"],
 	"prConcurrentLimit": 0,
