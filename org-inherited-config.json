@@ -166,7 +166,7 @@
 	"customManagers": [
 		{
 			"customType": "regex",
-			"fileMatch": ["."],
+			"managerFilePatterns": ["."],
 			"matchStrings": [
 				"https?:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/(?<depName>(?:@[\\w.~-]+\\/)?[\\w.~-]+)@(?<currentValue>[\\w.><=~^*-]+)"
 			],
