@@ -1,4 +1,1 @@
-{
-	"major": { "minimumReleaseAge": "0 days" },
-	"minor": { "minimumReleaseAge": "0 days" }
-}
+{ "minimumReleaseAge": "0 days", "prCreation": "immediate" }
