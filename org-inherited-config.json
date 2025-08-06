@@ -34,16 +34,6 @@
 	"patch": { "labels": ["version-update:semver-patch"] },
 
 	"packageRules": [
-		{ "matchUpdateTypes": ["major"], "minimumReleaseAge": "7 days" },
-		{ "matchUpdateTypes": ["minor"], "minimumReleaseAge": "3 days" },
-		{ 
-			"matchPackageNames": [
-				"/redguy12|cobaltt7|strife\\.js|sa-community|scratchaddons/i"
-			],
-			"minimumReleaseAge": "0 days",
-			"prCreation": "immediate"
-		},
-
 		{
 			"matchDepTypes": [
 				"dependencies",
