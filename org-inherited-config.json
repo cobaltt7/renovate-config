@@ -155,7 +155,7 @@
 	"customManagers": [
 		{
 			"customType": "regex",
-			"managerFilePatterns": ["."],
+			"managerFilePatterns": ["/$/"],
 			"matchStrings": [
 				"https?:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/(?<depName>(?:@[\\w.~-]+\\/)?[\\w.~-]+)@(?<currentValue>[\\w.><=~^*-]+)"
 			],
