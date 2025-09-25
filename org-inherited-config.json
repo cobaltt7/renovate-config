@@ -67,6 +67,7 @@
 			"groupName": "prettier config packages"
 		},
 		{ "matchPackageNames": ["@sveltejs/**", "svelte"], "groupName": "svelte packages" },
+		{ "matchPackageNames": ["minio/**", "minio"], "groupName": "minio packages" },
 		{ "matchPackageNames": ["pandas-stubs", "pandas"], "groupName": "pandas packages" },
 		{
 			"matchDepNames": ["psf/black", "black"],
