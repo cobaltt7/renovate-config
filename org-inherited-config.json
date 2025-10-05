@@ -155,7 +155,7 @@
 		{
 			"matchDepNames": ["@sa-community/addons-data"],
 			"ignoreUnstable": false
-		},
+		}
 	],
 
 	"customManagers": [
