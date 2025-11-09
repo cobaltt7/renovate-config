@@ -162,6 +162,7 @@
 		{
 			"customType": "regex",
 			"managerFilePatterns": ["/$/"],
+			"ignorePaths": ["**.ipynb"],
 			"matchStrings": [
 				"https?:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/(?<depName>(?:@[\\w.~-]+\\/)?[\\w.~-]+)@(?<currentValue>[\\w.><=~^*-]+)"
 			],
