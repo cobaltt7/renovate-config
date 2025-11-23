@@ -161,7 +161,7 @@
 	"customManagers": [
 		{
 			"customType": "regex",
-			"managerFilePatterns": ["/.*(?<!\\.ipynb)$/"],
+			"managerFilePatterns": [".*(?<!\\.ipynb)$"],
 			"matchStrings": [
 				"https?:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/(?<depName>(?:@[\\w.~-]+\\/)?[\\w.~-]+)@(?<currentValue>[\\w.><=~^*-]+)"
 			],
