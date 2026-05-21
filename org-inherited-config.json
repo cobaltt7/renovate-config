@@ -64,7 +64,8 @@
 
 		{
 			"matchPackageNames": ["@redguy12/prettier**", "prettier"],
-			"groupName": "prettier config packages"
+			"groupName": "prettier config packages",
+			"separateMultipleMajor": false
 		},
 		{ "matchPackageNames": ["@sveltejs/**", "svelte"], "groupName": "svelte packages" },
 		{ "matchPackageNames": ["minio/**", "minio"], "groupName": "minio packages" },
@@ -78,11 +79,11 @@
 		{
 			"matchDatasources": ["npm"],
 			"matchPackageNames": ["vite", "@vitejs/**"],
-			"groupName": "vite monorepo"
+			"groupName": "vite packages"
 		},
 		{
 			"matchPackageNames": ["@discordjs/**", "discord-api-types", "discord.js"],
-			"groupName": "discord.js monorepo",
+			"groupName": "discord.js packages",
 			"ignoreUnstable": true
 		},
 		{
@@ -95,7 +96,8 @@
 				"eslint-config-cobaltt7",
 				"eslint-plugin-cobaltt7"
 			],
-			"groupName": "eslint monorepo"
+			"groupName": "eslint packages",
+			"separateMultipleMajor": false
 		},
 		{
 			"matchDatasources": ["docker", "node-version"],
@@ -110,7 +112,8 @@
 			"major": { "enabled": true },
 			"minor": { "enabled": false },
 			"patch": { "enabled": false },
-			"versioning": "node"
+			"versioning": "node",
+			"schedule": ["in october", "in november"]
 		},
 		{
 			"matchPackageNames": ["node", "actions/node-versions"],
@@ -119,7 +122,8 @@
 			"major": { "enabled": true },
 			"minor": { "enabled": false },
 			"patch": { "enabled": false },
-			"versioning": "node"
+			"versioning": "node",
+			"schedule": ["in october", "in november"]
 		},
 		{ "matchPackageNames": ["ruby", "ruby/setup-ruby", "bundler"], "groupName": "ruby" },
 
@@ -135,7 +139,8 @@
 			"overrideDatasource": "node-version",
 			"overridePackageName": "node",
 			"patch": { "enabled": false },
-			"versioning": "node"
+			"versioning": "node",
+			"schedule": ["in october", "in november"]
 		},
 
 		{
@@ -154,7 +159,8 @@
 
 		{
 			"matchDepNames": ["@sa-community/addons-data"],
-			"ignoreUnstable": false
+			"ignoreUnstable": false,
+			"separateMultipleMajor": false
 		}
 	],
 
