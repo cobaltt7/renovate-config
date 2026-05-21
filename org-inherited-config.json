@@ -139,7 +139,7 @@
 			"overridePackageName": "node",
 			"patch": { "enabled": false },
 			"versioning": "node",
-			"schedule": ["in october", "in november"]
+			"schedule": ["* * 24-31 10 *"]
 		},
 
 		{
