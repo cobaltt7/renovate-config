@@ -112,7 +112,7 @@
 			"minor": { "enabled": false },
 			"patch": { "enabled": false },
 			"versioning": "node",
-			"schedule": ["in october", "in november"]
+			"schedule": ["* * 24-31 10 *"]
 		},
 		{
 			"matchPackageNames": ["node", "actions/node-versions"],
@@ -122,7 +122,7 @@
 			"minor": { "enabled": false },
 			"patch": { "enabled": false },
 			"versioning": "node",
-			"schedule": ["in october", "in november"]
+			"schedule": ["* * 24-31 10 *"]
 		},
 		{ "matchPackageNames": ["ruby", "ruby/setup-ruby", "bundler"], "groupName": "ruby" },
 
