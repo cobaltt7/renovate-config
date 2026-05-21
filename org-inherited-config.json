@@ -17,7 +17,7 @@
 	"git-submodules": { "enabled": true },
 	"gitIgnoredAuthors": ["github-actions[bot]@users.noreply.github.com"],
 	"internalChecksFilter": "none",
-	"lockFileMaintenance": { "enabled": true, "schedule": ["* 18-21 */2 * *"] },
+	"lockFileMaintenance": { "enabled": true, "schedule": ["* 8-12 * * *"] },
 	"postUpdateOptions": ["npmDedupe", "pnpmDedupe", "yarnDedupeHighest"],
 	"prConcurrentLimit": 0,
 	"pre-commit": { "enabled": true },
