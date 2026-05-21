@@ -22,7 +22,6 @@
 	"prConcurrentLimit": 0,
 	"pre-commit": { "enabled": true },
 	"prHourlyLimit": 0,
-	"rebaseWhen": "behind-base-branch",
 	"recreateWhen": "always",
 	"semanticCommits": "enabled",
 	"separateMultipleMajor": true,
