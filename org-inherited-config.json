@@ -74,7 +74,10 @@
 			"groupName": "black packages",
 			"ignoreUnstable": true
 		},
-		{ "matchDepNames": ["socket.io**"], "groupName": "socket.io packages" },
+		{
+			"matchDepNames": ["socket.io**", "engine.io**", "@socket.io/**",],
+			"groupName": "socket.io packages"
+		},
 		{
 			"matchDatasources": ["npm"],
 			"matchPackageNames": ["vite", "@vitejs/**"],
